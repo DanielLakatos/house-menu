@@ -5,6 +5,17 @@ import { validateMenu, safeImage, encodeText, decodeText, moveCocktail } from '.
 import { GitHubMenu } from '../assets/github.js';
 const example = JSON.parse(await readFile(new URL('../data/menu.json',import.meta.url),'utf8'));
 const config = {owner:'example',repo:'menu',branch:'main'};
+test('default browser fetch keeps its Window receiver when loading and publishing',async t=>{
+  const calls=[];
+  t.mock.method(globalThis,'fetch',function(url,options){
+    if(this!==globalThis)throw new TypeError("Failed to execute 'fetch' on 'Window': Illegal invocation");
+    calls.push(options.method||'GET');
+    return Promise.resolve(new Response(JSON.stringify(options.method==='PUT'?{content:{sha:'saved'}}:{sha:'loaded',content:encodeText(JSON.stringify(example))}),{status:200}));
+  });
+  const client=new GitHubMenu(config,'test-token');
+  await client.load();await client.save(example);
+  assert.deepEqual(calls,['GET','PUT']);assert.equal(client.sha,'saved');
+});
 test('published menu has valid data and every local image exists',async()=>{validateMenu(example);for(const drink of example.cocktails)if(drink.image.startsWith('assets/'))await readFile(new URL('../'+drink.image,import.meta.url));});
 test('rejects duplicate IDs, bad availability and malformed ingredient arrays',()=>{for(const mutate of [m=>m.cocktails.push({...m.cocktails[0]}),m=>m.cocktails[0].available='yes',m=>m.cocktails[0].ingredients=[{}]]){const m=structuredClone(example);mutate(m);assert.throws(()=>validateMenu(m));}});
 test('image sources exclude active content and unsafe paths',()=>{for(const value of ['javascript:alert(1)','data:image/svg+xml;base64,abc','http://example.com/image.jpg','assets/../index.html','https://user:secret@example.com/photo'])assert.equal(safeImage(value),'');assert.equal(safeImage('https://example.com/photo.jpg'),'https://example.com/photo.jpg');assert.ok(safeImage('data:image/webp;base64,YWJj'));});

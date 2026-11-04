@@ -1,6 +1,6 @@
 import { validateMenu, encodeText, decodeText } from './model.js';
 export class GitHubMenu {
-  constructor(config, token, request = fetch) { this.config = config; this.token = token; this.request = request; this.sha = null; }
+  constructor(config, token, request = globalThis.fetch.bind(globalThis)) { this.config = config; this.token = token; this.request = request; this.sha = null; }
   get url() { const c = this.config; return `https://api.github.com/repos/${encodeURIComponent(c.owner)}/${encodeURIComponent(c.repo)}/contents/data/menu.json`; }
   async api(url, options = {}) {
     const response = await this.request(url, { ...options, headers: { Accept: 'application/vnd.github+json', Authorization: `Bearer ${this.token}`, 'X-GitHub-Api-Version': '2022-11-28', ...options.headers } });
