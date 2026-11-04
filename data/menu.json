@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "settings": {
+    "title": "House menu",
+    "intro": "Find something you fancy. I'll make it.",
+    "demo": true
+  },
+  "cocktails": [
+    {
+      "id": "negroni",
+      "name": "Negroni",
+      "description": "Equal parts gin, vermouth and Campari. Bold, bittersweet, and made for slow sipping.",
+      "tastingNotes": "Bitter orange · herbal · rich",
+      "ingredients": [
+        "30 ml gin",
+        "30 ml Campari",
+        "30 ml sweet red vermouth",
+        "Orange peel, to garnish"
+      ],
+      "recipe": "Stir the gin, Campari and vermouth with ice until cold. Strain over fresh ice in a rocks glass. Express an orange peel over the glass, then add it as a garnish.",
+      "image": "assets/cocktails.png",
+      "imageAlt": "A ruby-red Negroni over ice with orange peel",
+      "imageCredit": "AI-generated example photograph",
+      "available": true,
+      "imageCrop": "top-left"
+    },
+    {
+      "id": "margarita",
+      "name": "Margarita",
+      "description": "Tequila, fresh lime and orange liqueur. A crisp, citrusy classic with a little salt on the rim.",
+      "tastingNotes": "Fresh lime · bright · tart",
+      "ingredients": [
+        "50 ml blanco tequila",
+        "25 ml fresh lime juice",
+        "20 ml triple sec",
+        "Salt and lime, to garnish"
+      ],
+      "recipe": "Rub lime around half the rim of a coupe and dip it in salt. Shake the tequila, lime juice and triple sec with ice. Fine-strain into the chilled glass and garnish with lime.",
+      "image": "assets/cocktails.png",
+      "imageAlt": "A pale lime Margarita in a salt-rimmed coupe",
+      "imageCredit": "AI-generated example photograph",
+      "available": true,
+      "imageCrop": "top-right"
+    },
+    {
+      "id": "espresso-martini",
+      "name": "Espresso Martini",
+      "description": "Vodka and coffee liqueur shaken with espresso. A silky coffee drink with a proper foam top.",
+      "tastingNotes": "Roasted coffee · smooth · bittersweet",
+      "ingredients": [
+        "50 ml vodka",
+        "25 ml coffee liqueur",
+        "25 ml freshly brewed espresso, cooled",
+        "5–10 ml sugar syrup, to taste",
+        "3 coffee beans, to garnish"
+      ],
+      "recipe": "Shake all the liquid ingredients hard with plenty of ice. Fine-strain into a chilled coupe. Garnish the foam with three coffee beans.",
+      "image": "assets/cocktails.png",
+      "imageAlt": "An Espresso Martini with crema and three coffee beans",
+      "imageCredit": "AI-generated example photograph",
+      "available": true,
+      "imageCrop": "bottom-left"
+    },
+    {
+      "id": "old-fashioned",
+      "name": "Old Fashioned",
+      "description": "Whiskey, a little sugar, and bitters. A spirit-forward classic that lets the whiskey do the talking.",
+      "tastingNotes": "Oak · orange peel · warming",
+      "ingredients": [
+        "60 ml bourbon or rye whiskey",
+        "5 ml sugar syrup",
+        "2 dashes Angostura bitters",
+        "Orange peel, to garnish"
+      ],
+      "recipe": "Stir the whiskey, syrup and bitters with ice until chilled and lightly diluted. Strain into a rocks glass over a large ice cube. Express orange peel over the drink and add it to the glass.",
+      "image": "assets/cocktails.png",
+      "imageAlt": "An amber Old Fashioned with a large ice cube and orange peel",
+      "imageCredit": "AI-generated example photograph",
+      "available": true,
+      "imageCrop": "bottom-right"
+    }
+  ]
+}

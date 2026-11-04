@@ -1,0 +1,6 @@
+/* Display each panel of the generated contact sheet without duplicating the asset. */
+.drink-picture.sheet-frame{position:relative;aspect-ratio:615/639}
+.drink-picture .photo-sheet{position:absolute;left:0;top:0;width:200%;height:200%;max-width:none;object-fit:fill}
+.photo-sheet.top-right{transform:translateX(-50%)}
+.photo-sheet.bottom-left{transform:translateY(-50%)}
+.photo-sheet.bottom-right{transform:translate(-50%,-50%)}
