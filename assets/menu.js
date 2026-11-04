@@ -63,6 +63,8 @@ if (document.querySelector('#drinks')) {
     if (!response.ok) throw new Error('Menu unavailable');
     const data = validateMenu(await response.json());
     document.title = data.settings.title;
+    const eventTitle = document.querySelector('#event-title');
+    if (eventTitle) eventTitle.textContent = data.settings.title;
     const available = findCocktails(data.cocktails);
     const cards = available.map((drink, index) => drinkCard(drink, index));
     container.replaceChildren(...cards);
