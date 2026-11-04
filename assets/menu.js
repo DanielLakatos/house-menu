@@ -18,10 +18,8 @@ if (document.querySelector('#drinks')) {
     const response = await fetch(new URL('../data/menu.json', import.meta.url), { cache: 'no-store' });
     if (!response.ok) throw new Error('Menu unavailable');
     const data = validateMenu(await response.json());
-    document.title = data.settings.title; document.querySelector('#menu-title').textContent = data.settings.title; document.querySelector('#menu-intro').textContent = data.settings.intro;
-    document.querySelector('#demo-note').hidden = !data.settings.demo;
+    document.title = data.settings.title;
     const drinks = data.cocktails.filter(drink => drink.available); const container = document.querySelector('#drinks'); container.replaceChildren();
-    document.querySelector('#menu-count').textContent = `${drinks.length} ${drinks.length === 1 ? 'drink' : 'drinks'}`;
     if (!drinks.length) container.append(el('p', 'empty-state', 'The menu is taking a little break. Ask your host what’s pouring.'));
     drinks.forEach((drink, index) => container.append(drinkCard(drink, index)));
   } catch { const container = document.querySelector('#drinks'); container.replaceChildren(el('p', 'notice', 'The menu couldn’t load. Please refresh to try again.')); }
