@@ -25,7 +25,12 @@
       "source": {
         "name": "Cocktails by Steve",
         "screenshot": "0ef29f4c-3a5d-4397-81f6-3bdc8250d354.jpg"
-      }
+      },
+      "tags": [
+        "fruity",
+        "citrus",
+        "silky"
+      ]
     },
     {
       "id": "old-fashioned",
@@ -47,7 +52,11 @@
       "source": {
         "name": "Cocktails by Steve",
         "screenshot": "142e7688-e009-4cac-9118-f8b8483e1a94.jpg"
-      }
+      },
+      "tags": [
+        "spirit-forward",
+        "warming"
+      ]
     },
     {
       "id": "mint-julep",
@@ -69,7 +78,12 @@
       "source": {
         "name": "Cocktails by Steve",
         "screenshot": "183ba5a7-ef5a-4b89-b65c-69690655d060.jpg"
-      }
+      },
+      "tags": [
+        "fresh",
+        "minty",
+        "cooling"
+      ]
     },
     {
       "id": "hugo-spritz",
@@ -92,7 +106,12 @@
       "source": {
         "name": "Cocktails by Steve",
         "screenshot": "1f2d026f-7a82-410d-9882-a1df9084d696.jpg"
-      }
+      },
+      "tags": [
+        "fresh",
+        "floral",
+        "sparkling"
+      ]
     },
     {
       "id": "whiskey-smash",
@@ -116,7 +135,12 @@
         "name": "Cocktails by Steve",
         "screenshot": "50e063dc-fd8e-4c11-a74e-7d110ffca12a.jpg",
         "note": "The source lists 22.5 ml lemon juice but mentions lemon wedges in its method. This version uses the listed juice quantity."
-      }
+      },
+      "tags": [
+        "fresh",
+        "minty",
+        "citrus"
+      ]
     },
     {
       "id": "godfather",
@@ -137,7 +161,11 @@
       "source": {
         "name": "Cocktails by Steve",
         "screenshot": "56808765-f563-4aae-965e-11aea1dcee7b.jpg"
-      }
+      },
+      "tags": [
+        "nutty",
+        "spirit-forward"
+      ]
     },
     {
       "id": "pantheon",
@@ -158,7 +186,11 @@
       "source": {
         "name": "Cocktails by Steve",
         "screenshot": "846f51a2-8bfc-4b1b-b51f-27d15dfc5f8d.jpg"
-      }
+      },
+      "tags": [
+        "herbal",
+        "citrus"
+      ]
     },
     {
       "id": "espresso-martini",
@@ -181,7 +213,12 @@
       "source": {
         "name": "Cocktails by Steve",
         "screenshot": "90d73acc-69a0-4579-876b-b95bbbe896ba.jpg"
-      }
+      },
+      "tags": [
+        "coffee",
+        "rich",
+        "smooth"
+      ]
     },
     {
       "id": "kentucky-maid",
@@ -205,7 +242,12 @@
       "source": {
         "name": "Cocktails by Steve",
         "screenshot": "93161728-64a5-4807-ac26-ae39191c623b.jpg"
-      }
+      },
+      "tags": [
+        "fresh",
+        "minty",
+        "citrus"
+      ]
     },
     {
       "id": "southside",
@@ -227,7 +269,12 @@
       "source": {
         "name": "Cocktails by Steve",
         "screenshot": "93b0905b-e352-49c7-8969-a2d347e391bf.jpg"
-      }
+      },
+      "tags": [
+        "fresh",
+        "minty",
+        "citrus"
+      ]
     },
     {
       "id": "whiskey-sour",
@@ -250,7 +297,11 @@
       "source": {
         "name": "Cocktails by Steve",
         "screenshot": "c37fae0e-eefe-4f7f-9c25-466289b0359b.jpg"
-      }
+      },
+      "tags": [
+        "citrus",
+        "silky"
+      ]
     },
     {
       "id": "elder-fashioned",
@@ -273,7 +324,11 @@
       "source": {
         "name": "Cocktails by Steve",
         "screenshot": "c62a2b70-c31f-4f04-a2f0-6a34c7193fcb.jpg"
-      }
+      },
+      "tags": [
+        "floral",
+        "spirit-forward"
+      ]
     },
     {
       "id": "death-and-taxes",
@@ -298,7 +353,11 @@
       "source": {
         "name": "Cocktails by Steve",
         "screenshot": "cb03b728-7c43-4397-bc10-c812daf5baca.jpg"
-      }
+      },
+      "tags": [
+        "herbal",
+        "spirit-forward"
+      ]
     },
     {
       "id": "don-lockwood",
@@ -321,7 +380,11 @@
       "source": {
         "name": "Cocktails by Steve",
         "screenshot": "cfcaf7af-0978-4696-ac84-283b29336bea.jpg"
-      }
+      },
+      "tags": [
+        "smoky",
+        "rich"
+      ]
     },
     {
       "id": "bees-knees",
@@ -342,7 +405,11 @@
       "source": {
         "name": "Cocktails by Steve",
         "screenshot": "f20695d4-aec9-4fff-84f5-d6139f1df945.jpg"
-      }
+      },
+      "tags": [
+        "citrus",
+        "honey"
+      ]
     },
     {
       "id": "kentucky-buck",
@@ -367,7 +434,12 @@
       },
       "image": "assets/drinks/kentucky-buck.png",
       "imageCredit": "AI-generated menu photograph",
-      "available": true
+      "available": true,
+      "tags": [
+        "fresh",
+        "fruity",
+        "sparkling"
+      ]
     },
     {
       "id": "cosmopolitan",
@@ -391,7 +463,11 @@
       },
       "image": "assets/drinks/cosmopolitan.png",
       "imageCredit": "AI-generated menu photograph",
-      "available": true
+      "available": true,
+      "tags": [
+        "fruity",
+        "citrus"
+      ]
     },
     {
       "id": "screwdriver",
@@ -408,7 +484,11 @@
       "imageAlt": "A bright orange Screwdriver in a highball with ice and an orange wedge",
       "image": "assets/drinks/screwdriver.png",
       "imageCredit": "AI-generated menu photograph",
-      "available": true
+      "available": true,
+      "tags": [
+        "fruity",
+        "juicy"
+      ]
     },
     {
       "id": "whiskey-coke",
@@ -424,7 +504,11 @@
       "imageAlt": "Whiskey and cola in a highball glass with clear ice cubes",
       "image": "assets/drinks/whiskey-coke.png",
       "imageCredit": "AI-generated menu photograph",
-      "available": true
+      "available": true,
+      "tags": [
+        "sparkling",
+        "sweet"
+      ]
     },
     {
       "id": "negroni",
@@ -442,7 +526,12 @@
       "imageAlt": "A ruby-red Negroni over ice with orange peel",
       "imageCredit": "AI-generated example photograph",
       "available": true,
-      "imageCrop": "top-left"
+      "imageCrop": "top-left",
+      "tags": [
+        "bitter",
+        "herbal",
+        "spirit-forward"
+      ]
     },
     {
       "id": "margarita",
@@ -460,7 +549,19 @@
       "imageAlt": "A pale lime Margarita in a salt-rimmed coupe",
       "imageCredit": "AI-generated example photograph",
       "available": false,
-      "imageCrop": "top-right"
+      "imageCrop": "top-right",
+      "tags": [
+        "citrus",
+        "tart"
+      ]
     }
+  ],
+  "additionalDrinks": [
+    "Coffee",
+    "Tea",
+    "Beer",
+    "Alcohol-free beer",
+    "Wines",
+    "Juices"
   ]
 }

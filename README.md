@@ -12,6 +12,12 @@ The current menu contains 20 cocktails: 15 imported from the host's Cocktails by
 
 ## Editing and publishing
 
+Guests can search by cocktail name, ingredient, tasting notes or tags. Multiple words narrow the results; accents and capitalization do not matter. Photos keeps the original card grid. Compact shows a short description per drink and moves the image inside the expandable recipe. Each browser remembers its view preference.
+
+The separate Other drinks section lists coffee, tea, beer, alcohol-free beer, wines and juices. Edit the list under Other drinks in the editor, one name per line. Emptying the list hides that section. Cocktail search filters cocktails only; the other-drinks list stays available below them.
+
+Each cocktail has an optional comma-separated Search tags field in the editor, for example `fresh, fruity, citrus`. Tags and the other-drinks list publish with the rest of the menu and are included in backups. Older backups without these fields still work.
+
 1. Open the editor. Select a cocktail or choose Add cocktail.
 2. Enter the name, ingredients, recipe, description and tasting notes. Use an HTTPS image URL or upload a JPEG, PNG or WebP. Uploads resize to at most 1000 pixels on their longest side and are embedded in the menu file.
 3. Turn on Show on the guest menu for drinks you can serve. Move up/down controls set the order.

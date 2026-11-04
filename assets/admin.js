@@ -1,11 +1,12 @@
-import { validateMenu, safeImage, moveCocktail } from './model.js';
-import { GitHubMenu } from './github.js';
-import { el } from './menu.js';
+import { validateMenu, safeImage, moveCocktail } from './model.js?v=3';
+import { GitHubMenu } from './github.js?v=3';
+import { el } from './menu.js?v=3';
 const $ = selector => document.querySelector(selector);
 const form = $('#cocktail-form');
 const storageKey = 'house-menu-draft-v1:' + location.pathname;
 let menu, selected, client, config, revision = 0, publishedRevision = 0, lastDraft = '', busy = false, ready = false;
 const fields = ['name','description','tastingNotes','ingredients','recipe','image','imageAlt','imageCredit','available'];
+if (form.elements.namedItem('tags')) fields.push('tags');
 const field = name => form.elements.namedItem(name);
 function status(message, error = false) { $('#status').textContent = message; $('#status').classList.toggle('error', error); }
 function persist() {
@@ -21,7 +22,11 @@ function imagePreview() {
 }
 function capture() {
   const drink = menu.cocktails.find(d => d.id === selected); if (!drink) return;
-  for (const name of fields) drink[name] = name === 'available' ? field(name).checked : name === 'ingredients' ? field(name).value.split('\n').map(x=>x.trim()).filter(Boolean) : name === 'image' && field(name).value === '[Uploaded image]' ? drink.image : field(name).value;
+  for (const name of fields) {
+    if (name === 'available') drink[name] = field(name).checked;
+    else if (name === 'ingredients' || name === 'tags') drink[name] = field(name).value.split(name === 'tags' ? ',' : '\n').map(x=>x.trim()).filter(Boolean);
+    else if (name !== 'image' || field(name).value !== '[Uploaded image]') drink[name] = field(name).value;
+  }
   persist(); renderList();
 }
 function renderList() {
@@ -31,10 +36,14 @@ function renderList() {
 function renderEditor() {
   const drink = menu.cocktails.find(d => d.id === selected); form.hidden = !drink; $('#editor-empty').hidden = !!drink;
   if (!drink) return;
-  for (const name of fields) { if (name === 'available') field(name).checked = drink[name]; else field(name).value = name === 'ingredients' ? drink[name].join('\n') : name === 'image' && drink.image.startsWith('data:') ? '[Uploaded image]' : drink[name]; }
+  for (const name of fields) {
+    if (name === 'available') field(name).checked = drink[name];
+    else if (name === 'ingredients' || name === 'tags') field(name).value = (drink[name] || []).join(name === 'tags' ? ', ' : '\n');
+    else field(name).value = name === 'image' && drink.image.startsWith('data:') ? '[Uploaded image]' : drink[name];
+  }
   $('#image-upload').value = ''; imagePreview(); const index = menu.cocktails.indexOf(drink); $('#up').disabled = index === 0; $('#down').disabled = index === menu.cocktails.length - 1;
 }
-function render() { renderList(); renderEditor(); $('#title').value=menu.settings.title; $('#intro').value=menu.settings.intro; $('#demo').checked=menu.settings.demo; renderQr(); }
+function render() { renderList(); renderEditor(); $('#title').value=menu.settings.title; $('#intro').value=menu.settings.intro; $('#demo').checked=menu.settings.demo; if($('#additional-drinks')) $('#additional-drinks').value=(menu.additionalDrinks || []).join('\n'); renderQr(); }
 function renderQr() {
   const url = new URL('../',location.href).href; $('#guest-url').textContent = url; $('#qr-title').textContent = menu.settings.title || 'House menu';
   if (!globalThis.qrcode) { $('#qr-image').textContent='QR generator unavailable. Refresh to retry.'; return; }
@@ -61,12 +70,13 @@ try {
 if(ready) {
   form.addEventListener('input',event=>{ if(event.target===field('image')) { const drink=menu.cocktails.find(d=>d.id===selected); delete drink.imageCrop; } capture(); if(event.target===field('image')) imagePreview(); });
   form.addEventListener('submit',event=>{event.preventDefault(); capture(); try { validateMenu(menu); status('Cocktail saved to your draft. Publish when the menu is ready.'); } catch(error) { status(error.message,true); }});
-  $('#add').addEventListener('click',()=>{ const drink={id:crypto.randomUUID(),name:'New cocktail',description:'',tastingNotes:'',ingredients:['Add an ingredient'],recipe:'',image:'',imageAlt:'',imageCredit:'',available:false}; menu.cocktails.push(drink); selected=drink.id; persist(); renderList(); renderEditor(); field('name').focus(); status('New cocktail added to your draft. It stays hidden until you choose to show it.'); });
+  $('#add').addEventListener('click',()=>{ const drink={id:crypto.randomUUID(),name:'New cocktail',description:'',tastingNotes:'',tags:[],ingredients:['Add an ingredient'],recipe:'',image:'',imageAlt:'',imageCredit:'',available:false}; menu.cocktails.push(drink); selected=drink.id; persist(); renderList(); renderEditor(); field('name').focus(); status('New cocktail added to your draft. It stays hidden until you choose to show it.'); });
   $('#delete').addEventListener('click',()=>{ if(!confirm('Delete this cocktail from your draft? The live menu changes only when you publish.')) return; menu.cocktails=menu.cocktails.filter(d=>d.id!==selected); selected=menu.cocktails[0]?.id; persist(); renderList(); renderEditor(); status('Cocktail removed from the draft.'); });
   for(const [id,direction] of [['up',-1],['down',1]]) $('#'+id).addEventListener('click',()=>{ moveCocktail(menu,selected,direction); persist(); renderList(); renderEditor(); });
   $('#image-upload').addEventListener('change',async event=>{const file=event.target.files[0]; if(!file)return; const drink=menu.cocktails.find(d=>d.id===selected); try{const image=await uploadImage(file); drink.image=image; delete drink.imageCrop; persist(); if(selected===drink.id)renderEditor(); status('Image added to your draft.');}catch(error){status(error.message,true);}});
   $('#remove-image').addEventListener('click',()=>{const drink=menu.cocktails.find(d=>d.id===selected); drink.image=''; delete drink.imageCrop; persist(); renderEditor();});
   for(const key of ['title','intro','demo']) $('#'+key).addEventListener('input',()=>{menu.settings[key]=key==='demo'?$('#demo').checked:$('#'+key).value; persist(); if(key==='title')renderQr();});
+  $('#additional-drinks')?.addEventListener('input',()=>{menu.additionalDrinks=$('#additional-drinks').value.split('\n').map(name=>name.trim()).filter(Boolean);persist();});
   $('#export').addEventListener('click',exportBackup);
   $('#import').addEventListener('change',async event=>{ const file=event.target.files[0]; if(!file)return; try{if(file.size>20*1024*1024)throw new Error('Choose a backup smaller than 20 MB.'); const imported=validateMenu(JSON.parse(await file.text())); if(!confirm('Replace this device’s draft with the imported menu? Export a backup first if you want to keep the current draft.'))return; menu=imported; selected=menu.cocktails[0]?.id;persist();render();status('Backup imported as a draft. Publish to update the guest menu.');}catch(error){status(error.message,true);}finally{event.target.value='';}});
   $('#connect').addEventListener('click',async()=>{

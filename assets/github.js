@@ -1,4 +1,4 @@
-import { validateMenu, encodeText, decodeText } from './model.js';
+import { validateMenu, encodeText, decodeText } from './model.js?v=3';
 export class GitHubMenu {
   constructor(config, token, request = globalThis.fetch.bind(globalThis)) { this.config = config; this.token = token; this.request = request; this.sha = null; }
   get url() { const c = this.config; return `https://api.github.com/repos/${encodeURIComponent(c.owner)}/${encodeURIComponent(c.repo)}/contents/data/menu.json`; }

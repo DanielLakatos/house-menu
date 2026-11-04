@@ -1,0 +1,44 @@
+/* Functional browsing controls and a denser alternative to the photo grid. */
+.menu-shell{padding-top:0}
+.menu-controls{position:sticky;top:0;z-index:10;display:grid;grid-template-columns:minmax(200px,1fr) auto;gap:12px 24px;align-items:end;background:var(--bg);padding:24px 0 18px;margin-bottom:24px;border-bottom:1px solid var(--line)}
+.search-control{max-width:620px}
+.search-control label{font-size:12px;margin:0 0 8px}
+.search-input{display:flex;align-items:center;gap:8px}
+.search-input input{width:100%;min-width:0;min-height:46px;border:1px solid var(--line);border-radius:var(--radius);padding:11px 13px;background:#0d241f;color:var(--text);font-size:16px}
+.search-input input::-webkit-search-cancel-button{-webkit-appearance:none}
+.search-input button{font-size:13px;padding:10px}
+.view-control{display:flex;border:1px solid var(--line);border-radius:var(--radius);padding:3px;gap:3px}
+.view-control button{border:0;min-height:38px;padding:8px 17px;font-size:13px}
+.view-control button[aria-pressed=true]{background:var(--accent);color:var(--bg);font-weight:700}
+.result-count{grid-column:1/-1;margin:0;color:var(--muted);font-size:12px;line-height:1.4}
+.other-drinks{border-top:1px solid var(--line);margin-top:56px;padding-top:30px}
+.other-drinks h2{font-size:27px;font-weight:500;letter-spacing:-.035em;margin:0 0 12px}
+.other-drinks p{color:var(--muted);font-size:15px;line-height:1.6;margin:0 0 20px}
+.other-drinks ul{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0 28px}
+.other-drinks li{padding:14px 0;border-bottom:1px solid var(--line);font-size:16px;line-height:1.5}
+.compact-view .drinks{grid-template-columns:1fr;gap:0}
+.compact-view .drink{padding:18px 0;border-bottom:1px solid var(--line)}
+.compact-view .drink:first-child{padding-top:0}
+.compact-view .drink-body{padding:0}
+.compact-view .drink-heading h2{font-size:22px;line-height:1.25}
+.compact-view .tasting-notes{display:none}
+.compact-view .drink-description{font-size:14px;line-height:1.5;margin:7px 0 4px;max-width:75ch;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden}
+.compact-view .recipe{border:0}
+.compact-view summary{font-size:13px;min-height:40px;padding:12px 0 6px}
+.compact-view .recipe .drink-picture{max-width:420px;margin:20px 0 4px}
+.compact-view .recipe[open]{padding-bottom:4px}
+.other-drinks-editor{border-top:1px solid var(--line);padding-top:28px;margin-top:36px}
+.other-drinks-editor textarea{max-width:620px}
+@media(max-width:767px){
+ .menu-controls{grid-template-columns:minmax(0,1fr) auto;gap:12px 10px;padding:16px 0 14px;margin-bottom:20px}
+ .search-control{grid-column:1/-1;max-width:none}
+ .view-control{justify-self:start}
+ .result-count{grid-column:2;align-self:center;text-align:right}
+ .view-control button{padding:8px 14px}
+ .compact-view .drink{padding:15px 0}
+ .compact-view .drink-heading h2{font-size:21px}
+ .compact-view .drink-description{font-size:14px}
+ .other-drinks{margin-top:38px;padding-top:26px}
+ .other-drinks ul{grid-template-columns:1fr 1fr;gap:0 22px}
+}
+@media print{.menu-controls{position:static}}
