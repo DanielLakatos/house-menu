@@ -8,7 +8,7 @@ A small home cocktail menu. Guests browse photos, tasting notes and recipes. The
 - Editor: https://daniellakatos.github.io/house-menu/admin/
 - Repository: https://github.com/DanielLakatos/house-menu
 
-The current menu contains 19 cocktails: 15 imported from the host's Cocktails by Steve screenshots, plus Kentucky Buck, Cosmopolitan, Screwdriver and Whiskey Coke. Screenshot recipe quantities are preserved. The Kentucky Buck is a house variation with muddled strawberry left in the serving glass; the Cosmopolitan adapts the IBA recipe. Screwdriver and Whiskey Coke use house measures of 50 ml spirit to 150 ml mixer. Descriptions and tasting notes are written for the guest menu, with matching generated photographs. Negroni and Margarita remain hidden examples in the editor.
+The current menu contains 20 cocktails: 15 imported from the host's Cocktails by Steve screenshots, plus Kentucky Buck, Cosmopolitan, Screwdriver, Whiskey Coke and Negroni. Screenshot recipe quantities are preserved. The Kentucky Buck is a house variation with muddled strawberry left in the serving glass; the Cosmopolitan adapts the IBA recipe. Screwdriver and Whiskey Coke use house measures of 50 ml spirit to 150 ml mixer. Descriptions and tasting notes are written for the guest menu, with matching generated photographs. Margarita remains a hidden example in the editor.
 
 ## Editing and publishing
 

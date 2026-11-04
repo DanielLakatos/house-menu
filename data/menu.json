@@ -441,7 +441,7 @@
       "image": "assets/cocktails.png",
       "imageAlt": "A ruby-red Negroni over ice with orange peel",
       "imageCredit": "AI-generated example photograph",
-      "available": false,
+      "available": true,
       "imageCrop": "top-left"
     },
     {
