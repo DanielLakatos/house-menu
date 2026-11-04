@@ -73,5 +73,25 @@
     "id": "bees-knees",
     "prompt": "Use case: photorealistic-natural. Create ONE standalone cocktail photograph for a home drinks menu, landscape 4:3 composition. Subject: a cloudy honey-gold Bee's Knees cocktail in a shallow wide coupe glass on a stem, fine light surface froth, no garnish, no ice. Image 1 is a style reference only: copy its dark forest-green blurred bar backdrop, dark stone counter, soft warm side lighting, realistic glass highlights and restrained composition. Image 2 is a cocktail appearance reference only: use the drink's color, texture and garnish, but change the vessel to the specified glass. Do not reproduce the screenshot or its text, UI, people, bottles, logos or QR code. One glass centered, whole rim and base fully visible with comfortable breathing room. Camera at glass level, glass occupies about 70 percent of image height. All photos belong to one consistent menu series. No text, no collage, no hands, no other glasses.",
     "tool": "Built-in image generation"
+  },
+  {
+    "id": "kentucky-buck",
+    "prompt": "Create ONE photorealistic cocktail menu photograph, landscape 4:3, as part of the same series as the supplied reference. Reference image is style only, not the drink to recreate. Subject: a Kentucky Buck in a tall straight transparent highball glass: softly cloudy pale golden-pink bourbon, lemon and ginger beer, muddled smashed red strawberry pulp clearly settled at the BOTTOM of the glass underneath clear ice cubes, tiny sparkling bubbles, one fresh strawberry on the rim. The strawberry pieces must be inside at the bottom, not just a garnish.. Copy the reference's dark forest-green blurred background, dark stone bar counter, soft warm side lighting, realistic glass highlights. One glass centered, entire rim and base visible with comfortable space around it, camera at glass level, glass takes about 70% of image height. Only the specified vessel, no martini V-shaped glasses, wine glasses or metal mugs. No hands, people, text, logos, labels, other objects or collage.",
+    "tool": "Built-in image generation"
+  },
+  {
+    "id": "cosmopolitan",
+    "prompt": "Create ONE photorealistic cocktail menu photograph, landscape 4:3, as part of the same series as the supplied reference. Reference image is style only, not the drink to recreate. Subject: a Cosmopolitan in a shallow wide stemmed coupe glass: clear rose-pink cranberry cocktail with a slim lemon twist on the rim, NO ice in the drink. Copy the reference's dark forest-green blurred background, dark stone bar counter, soft warm side lighting, realistic glass highlights. One glass centered, entire rim and base visible with comfortable space around it, camera at glass level, glass takes about 70% of image height. Only the specified vessel, no martini V-shaped glasses, wine glasses or metal mugs. No hands, people, text, logos, labels, other objects or collage.",
+    "tool": "Built-in image generation"
+  },
+  {
+    "id": "screwdriver",
+    "prompt": "Create ONE photorealistic cocktail menu photograph, landscape 4:3, as part of the same series as the supplied reference. Reference image is style only, not the drink to recreate. Subject: a Screwdriver in a tall straight transparent highball glass: vivid cloudy orange juice and vodka, clear ice cubes and an orange wedge at the rim, NO foam cap. Copy the reference's dark forest-green blurred background, dark stone bar counter, soft warm side lighting, realistic glass highlights. One glass centered, entire rim and base visible with comfortable space around it, camera at glass level, glass takes about 70% of image height. Only the specified vessel, no martini V-shaped glasses, wine glasses or metal mugs. No hands, people, text, logos, labels, other objects or collage.",
+    "tool": "Built-in image generation"
+  },
+  {
+    "id": "whiskey-coke",
+    "prompt": "Create ONE photorealistic cocktail menu photograph, landscape 4:3, as part of the same series as the supplied reference. Reference image is style only, not the drink to recreate. Subject: a Whiskey Coke in a tall straight transparent highball glass: deep dark cola-brown whiskey and cola, clear ice cubes and tiny carbonated bubbles, NO garnish. Copy the reference's dark forest-green blurred background, dark stone bar counter, soft warm side lighting, realistic glass highlights. One glass centered, entire rim and base visible with comfortable space around it, camera at glass level, glass takes about 70% of image height. Only the specified vessel, no martini V-shaped glasses, wine glasses or metal mugs. No hands, people, text, logos, labels, other objects or collage.",
+    "tool": "Built-in image generation"
   }
 ]

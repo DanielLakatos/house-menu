@@ -345,6 +345,88 @@
       }
     },
     {
+      "id": "kentucky-buck",
+      "name": "Kentucky Buck",
+      "description": "Bourbon and spicy ginger beer over muddled strawberry, with lemon and a little aromatic bitters.",
+      "tastingNotes": "Strawberry · ginger spice · bright lemon",
+      "ingredients": [
+        "1 fresh strawberry, hulled",
+        "60 ml bourbon whiskey",
+        "15 ml fresh lemon juice",
+        "2 dashes Angostura bitters",
+        "Ginger beer, to top",
+        "Fresh strawberry, to garnish"
+      ],
+      "recipe": "Gently muddle the hulled strawberry in the bottom of a highball glass. Add the bourbon, lemon juice and bitters, then fill with ice. Top with ginger beer and stir gently, keeping some strawberry at the bottom. Garnish with a fresh strawberry.",
+      "glass": "highball",
+      "imageAlt": "Kentucky Buck in a highball with muddled strawberry at the bottom, ice and a strawberry garnish",
+      "source": {
+        "name": "Maker's Mark",
+        "url": "https://www.makersmark.com/en-us/cocktails/kentucky-buck",
+        "note": "House variation requested by the host: build in the serving glass and retain the muddled strawberry at the bottom instead of shaking and straining it."
+      },
+      "image": "assets/drinks/kentucky-buck.png",
+      "imageCredit": "AI-generated menu photograph",
+      "available": true
+    },
+    {
+      "id": "cosmopolitan",
+      "name": "Cosmopolitan",
+      "description": "Vodka, orange liqueur, cranberry and fresh lime. A crisp pink cocktail served straight up.",
+      "tastingNotes": "Cranberry · citrus · lightly tart",
+      "ingredients": [
+        "40 ml vodka, preferably citrus vodka",
+        "15 ml Cointreau or triple sec",
+        "15 ml fresh lime juice",
+        "30 ml cranberry juice",
+        "Lemon twist, to garnish"
+      ],
+      "recipe": "Add the vodka, orange liqueur, lime juice and cranberry juice to a shaker filled with ice. Shake well and strain into a chilled coupe. Garnish with a lemon twist.",
+      "glass": "coupe",
+      "imageAlt": "A rose-pink Cosmopolitan in a coupe with a lemon twist",
+      "source": {
+        "name": "International Bartenders Association",
+        "url": "https://iba-world.com/iba-cocktail/cosmopolitan/",
+        "note": "IBA quantities, served in the host’s coupe. Plain vodka and triple sec are allowed as house substitutions for citrus vodka and Cointreau."
+      },
+      "image": "assets/drinks/cosmopolitan.png",
+      "imageCredit": "AI-generated menu photograph",
+      "available": true
+    },
+    {
+      "id": "screwdriver",
+      "name": "Screwdriver",
+      "description": "Vodka and orange juice over ice. Simple, fruity and easy to sip.",
+      "tastingNotes": "Orange · juicy · smooth",
+      "ingredients": [
+        "50 ml vodka",
+        "150 ml orange juice",
+        "Orange wedge, to garnish"
+      ],
+      "recipe": "Fill a highball glass with ice. Add the vodka and orange juice, then stir gently to combine. Garnish with an orange wedge.",
+      "glass": "highball",
+      "imageAlt": "A bright orange Screwdriver in a highball with ice and an orange wedge",
+      "image": "assets/drinks/screwdriver.png",
+      "imageCredit": "AI-generated menu photograph",
+      "available": true
+    },
+    {
+      "id": "whiskey-coke",
+      "name": "Whiskey Coke",
+      "description": "Whiskey and Coca-Cola over plenty of ice. A familiar, easygoing highball.",
+      "tastingNotes": "Cola · caramel · warming whiskey",
+      "ingredients": [
+        "50 ml whiskey",
+        "150 ml Coca-Cola"
+      ],
+      "recipe": "Fill a highball glass with ice. Pour in the whiskey, then add the Coca-Cola. Stir gently once or twice to mix without losing the fizz.",
+      "glass": "highball",
+      "imageAlt": "Whiskey and cola in a highball glass with clear ice cubes",
+      "image": "assets/drinks/whiskey-coke.png",
+      "imageCredit": "AI-generated menu photograph",
+      "available": true
+    },
+    {
       "id": "negroni",
       "name": "Negroni",
       "description": "Equal parts gin, vermouth and Campari. Bold, bittersweet, and made for slow sipping.",
