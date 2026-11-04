@@ -1,0 +1,77 @@
+[
+  {
+    "id": "midori-sour",
+    "prompt": "Use case: photorealistic-natural. Create ONE standalone cocktail photograph for a home drinks menu, landscape 4:3 composition. Subject: a vivid green Midori Sour with a smooth white egg-white foam cap, in a shallow wide coupe glass on a stem, no garnish. Image 1 is a style reference only: copy its dark forest-green blurred bar backdrop, dark stone counter, soft warm side lighting, realistic glass highlights and restrained composition. Image 2 is a cocktail appearance reference only: use the drink's color, texture and garnish, but change the vessel to the specified glass. Do not reproduce the screenshot or its text, UI, people, bottles, logos or QR code. One glass centered, whole rim and base fully visible with comfortable breathing room. Camera at glass level, glass occupies about 70 percent of image height. All photos belong to one consistent menu series. No text, no collage, no hands, no other glasses.",
+    "tool": "Built-in image generation"
+  },
+  {
+    "id": "old-fashioned",
+    "prompt": "Use case: photorealistic-natural. Create ONE standalone cocktail photograph for a home drinks menu, landscape 4:3 composition. Subject: an amber bourbon Old Fashioned in a short old-fashioned rocks glass over one large clear ice cube, orange twist. Image 1 is a style reference only: copy its dark forest-green blurred bar backdrop, dark stone counter, soft warm side lighting, realistic glass highlights and restrained composition. Image 2 is a cocktail appearance reference only: use the drink's color, texture and garnish, but change the vessel to the specified glass. Do not reproduce the screenshot or its text, UI, people, bottles, logos or QR code. One glass centered, whole rim and base fully visible with comfortable breathing room. Camera at glass level, glass occupies about 70 percent of image height. All photos belong to one consistent menu series. No text, no collage, no hands, no other glasses.",
+    "tool": "Built-in image generation"
+  },
+  {
+    "id": "mint-julep",
+    "prompt": "Use case: photorealistic-natural. Create ONE standalone cocktail photograph for a home drinks menu, landscape 4:3 composition. Subject: a pale amber Mint Julep in a short transparent old-fashioned rocks glass filled with crushed ice and topped with a generous mint sprig, NOT a metal julep cup. Image 1 is a style reference only: copy its dark forest-green blurred bar backdrop, dark stone counter, soft warm side lighting, realistic glass highlights and restrained composition. Image 2 is a cocktail appearance reference only: use the drink's color, texture and garnish, but change the vessel to the specified glass. Do not reproduce the screenshot or its text, UI, people, bottles, logos or QR code. One glass centered, whole rim and base fully visible with comfortable breathing room. Camera at glass level, glass occupies about 70 percent of image height. All photos belong to one consistent menu series. No text, no collage, no hands, no other glasses.",
+    "tool": "Built-in image generation"
+  },
+  {
+    "id": "hugo-spritz",
+    "prompt": "Use case: photorealistic-natural. Create ONE standalone cocktail photograph for a home drinks menu, landscape 4:3 composition. Subject: a nearly clear lightly golden Hugo Spritz in a tall straight highball glass with ice cubes, tiny sparkling bubbles, fresh mint and a lemon wheel, NOT a wine glass. Image 1 is a style reference only: copy its dark forest-green blurred bar backdrop, dark stone counter, soft warm side lighting, realistic glass highlights and restrained composition. Image 2 is a cocktail appearance reference only: use the drink's color, texture and garnish, but change the vessel to the specified glass. Do not reproduce the screenshot or its text, UI, people, bottles, logos or QR code. One glass centered, whole rim and base fully visible with comfortable breathing room. Camera at glass level, glass occupies about 70 percent of image height. All photos belong to one consistent menu series. No text, no collage, no hands, no other glasses.",
+    "tool": "Built-in image generation"
+  },
+  {
+    "id": "whiskey-smash",
+    "prompt": "Use case: photorealistic-natural. Create ONE standalone cocktail photograph for a home drinks menu, landscape 4:3 composition. Subject: a cloudy golden-yellow Whiskey Smash in a short old-fashioned rocks glass with fresh ice, a lemon wedge and mint sprig. Image 1 is a style reference only: copy its dark forest-green blurred bar backdrop, dark stone counter, soft warm side lighting, realistic glass highlights and restrained composition. Image 2 is a cocktail appearance reference only: use the drink's color, texture and garnish, but change the vessel to the specified glass. Do not reproduce the screenshot or its text, UI, people, bottles, logos or QR code. One glass centered, whole rim and base fully visible with comfortable breathing room. Camera at glass level, glass occupies about 70 percent of image height. All photos belong to one consistent menu series. No text, no collage, no hands, no other glasses.",
+    "tool": "Built-in image generation"
+  },
+  {
+    "id": "godfather",
+    "prompt": "Use case: photorealistic-natural. Create ONE standalone cocktail photograph for a home drinks menu, landscape 4:3 composition. Subject: a clear golden amber Godfather cocktail in a short old-fashioned rocks glass over one large clear ice cube and an orange twist. Image 1 is a style reference only: copy its dark forest-green blurred bar backdrop, dark stone counter, soft warm side lighting, realistic glass highlights and restrained composition. Image 2 is a cocktail appearance reference only: use the drink's color, texture and garnish, but change the vessel to the specified glass. Do not reproduce the screenshot or its text, UI, people, bottles, logos or QR code. One glass centered, whole rim and base fully visible with comfortable breathing room. Camera at glass level, glass occupies about 70 percent of image height. All photos belong to one consistent menu series. No text, no collage, no hands, no other glasses.",
+    "tool": "Built-in image generation"
+  },
+  {
+    "id": "pantheon",
+    "prompt": "Use case: photorealistic-natural. Create ONE standalone cocktail photograph for a home drinks menu, landscape 4:3 composition. Subject: a pale golden-yellow Pantheon cocktail in a shallow wide coupe glass on a stem, a faint fine surface froth, no garnish. Image 1 is a style reference only: copy its dark forest-green blurred bar backdrop, dark stone counter, soft warm side lighting, realistic glass highlights and restrained composition. Image 2 is a cocktail appearance reference only: use the drink's color, texture and garnish, but change the vessel to the specified glass. Do not reproduce the screenshot or its text, UI, people, bottles, logos or QR code. One glass centered, whole rim and base fully visible with comfortable breathing room. Camera at glass level, glass occupies about 70 percent of image height. All photos belong to one consistent menu series. No text, no collage, no hands, no other glasses.",
+    "tool": "Built-in image generation"
+  },
+  {
+    "id": "espresso-martini",
+    "prompt": "Use case: photorealistic-natural. Create ONE standalone cocktail photograph for a home drinks menu, landscape 4:3 composition. Subject: a dark brown Espresso Martini in a shallow wide coupe glass on a stem, a light tan crema foam top and exactly three coffee beans, no ice. Image 1 is a style reference only: copy its dark forest-green blurred bar backdrop, dark stone counter, soft warm side lighting, realistic glass highlights and restrained composition. Image 2 is a cocktail appearance reference only: use the drink's color, texture and garnish, but change the vessel to the specified glass. Do not reproduce the screenshot or its text, UI, people, bottles, logos or QR code. One glass centered, whole rim and base fully visible with comfortable breathing room. Camera at glass level, glass occupies about 70 percent of image height. All photos belong to one consistent menu series. No text, no collage, no hands, no other glasses.",
+    "tool": "Built-in image generation"
+  },
+  {
+    "id": "kentucky-maid",
+    "prompt": "Use case: photorealistic-natural. Create ONE standalone cocktail photograph for a home drinks menu, landscape 4:3 composition. Subject: a cloudy pale golden-green Kentucky Maid in a short old-fashioned rocks glass with fresh ice, one cucumber wheel and a mint sprig. Image 1 is a style reference only: copy its dark forest-green blurred bar backdrop, dark stone counter, soft warm side lighting, realistic glass highlights and restrained composition. Image 2 is a cocktail appearance reference only: use the drink's color, texture and garnish, but change the vessel to the specified glass. Do not reproduce the screenshot or its text, UI, people, bottles, logos or QR code. One glass centered, whole rim and base fully visible with comfortable breathing room. Camera at glass level, glass occupies about 70 percent of image height. All photos belong to one consistent menu series. No text, no collage, no hands, no other glasses.",
+    "tool": "Built-in image generation"
+  },
+  {
+    "id": "southside",
+    "prompt": "Use case: photorealistic-natural. Create ONE standalone cocktail photograph for a home drinks menu, landscape 4:3 composition. Subject: a cloudy very pale green-yellow Southside cocktail in a shallow wide coupe glass on a stem, fine strained surface, no garnish, no ice. Image 1 is a style reference only: copy its dark forest-green blurred bar backdrop, dark stone counter, soft warm side lighting, realistic glass highlights and restrained composition. Image 2 is a cocktail appearance reference only: use the drink's color, texture and garnish, but change the vessel to the specified glass. Do not reproduce the screenshot or its text, UI, people, bottles, logos or QR code. One glass centered, whole rim and base fully visible with comfortable breathing room. Camera at glass level, glass occupies about 70 percent of image height. All photos belong to one consistent menu series. No text, no collage, no hands, no other glasses.",
+    "tool": "Built-in image generation"
+  },
+  {
+    "id": "whiskey-sour",
+    "prompt": "Use case: photorealistic-natural. Create ONE standalone cocktail photograph for a home drinks menu, landscape 4:3 composition. Subject: a golden amber Whiskey Sour in a shallow wide coupe glass on a stem, smooth white egg-white foam with three small aromatic bitters drops on top, no ice. Image 1 is a style reference only: copy its dark forest-green blurred bar backdrop, dark stone counter, soft warm side lighting, realistic glass highlights and restrained composition. Image 2 is a cocktail appearance reference only: use the drink's color, texture and garnish, but change the vessel to the specified glass. Do not reproduce the screenshot or its text, UI, people, bottles, logos or QR code. One glass centered, whole rim and base fully visible with comfortable breathing room. Camera at glass level, glass occupies about 70 percent of image height. All photos belong to one consistent menu series. No text, no collage, no hands, no other glasses.",
+    "tool": "Built-in image generation"
+  },
+  {
+    "id": "elder-fashioned",
+    "prompt": "Use case: photorealistic-natural. Create ONE standalone cocktail photograph for a home drinks menu, landscape 4:3 composition. Subject: a clear golden amber Elder Fashioned cocktail in a short old-fashioned rocks glass over one large clear ice cube and a broad orange twist. Image 1 is a style reference only: copy its dark forest-green blurred bar backdrop, dark stone counter, soft warm side lighting, realistic glass highlights and restrained composition. Image 2 is a cocktail appearance reference only: use the drink's color, texture and garnish, but change the vessel to the specified glass. Do not reproduce the screenshot or its text, UI, people, bottles, logos or QR code. One glass centered, whole rim and base fully visible with comfortable breathing room. Camera at glass level, glass occupies about 70 percent of image height. All photos belong to one consistent menu series. No text, no collage, no hands, no other glasses.",
+    "tool": "Built-in image generation"
+  },
+  {
+    "id": "death-and-taxes",
+    "prompt": "Use case: photorealistic-natural. Create ONE standalone cocktail photograph for a home drinks menu, landscape 4:3 composition. Subject: a deep reddish amber Death and Taxes cocktail in a shallow wide coupe glass on a stem, a small lemon twist on the rim, no ice. Image 1 is a style reference only: copy its dark forest-green blurred bar backdrop, dark stone counter, soft warm side lighting, realistic glass highlights and restrained composition. Image 2 is a cocktail appearance reference only: use the drink's color, texture and garnish, but change the vessel to the specified glass. Do not reproduce the screenshot or its text, UI, people, bottles, logos or QR code. One glass centered, whole rim and base fully visible with comfortable breathing room. Camera at glass level, glass occupies about 70 percent of image height. All photos belong to one consistent menu series. No text, no collage, no hands, no other glasses.",
+    "tool": "Built-in image generation"
+  },
+  {
+    "id": "don-lockwood",
+    "prompt": "Use case: photorealistic-natural. Create ONE standalone cocktail photograph for a home drinks menu, landscape 4:3 composition. Subject: a deep dark amber Don Lockwood cocktail in a short old-fashioned rocks glass over one large clear ice cube, no garnish. Image 1 is a style reference only: copy its dark forest-green blurred bar backdrop, dark stone counter, soft warm side lighting, realistic glass highlights and restrained composition. Image 2 is a cocktail appearance reference only: use the drink's color, texture and garnish, but change the vessel to the specified glass. Do not reproduce the screenshot or its text, UI, people, bottles, logos or QR code. One glass centered, whole rim and base fully visible with comfortable breathing room. Camera at glass level, glass occupies about 70 percent of image height. All photos belong to one consistent menu series. No text, no collage, no hands, no other glasses.",
+    "tool": "Built-in image generation"
+  },
+  {
+    "id": "bees-knees",
+    "prompt": "Use case: photorealistic-natural. Create ONE standalone cocktail photograph for a home drinks menu, landscape 4:3 composition. Subject: a cloudy honey-gold Bee's Knees cocktail in a shallow wide coupe glass on a stem, fine light surface froth, no garnish, no ice. Image 1 is a style reference only: copy its dark forest-green blurred bar backdrop, dark stone counter, soft warm side lighting, realistic glass highlights and restrained composition. Image 2 is a cocktail appearance reference only: use the drink's color, texture and garnish, but change the vessel to the specified glass. Do not reproduce the screenshot or its text, UI, people, bottles, logos or QR code. One glass centered, whole rim and base fully visible with comfortable breathing room. Camera at glass level, glass occupies about 70 percent of image height. All photos belong to one consistent menu series. No text, no collage, no hands, no other glasses.",
+    "tool": "Built-in image generation"
+  }
+]

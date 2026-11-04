@@ -8,7 +8,7 @@ A small home cocktail menu. Guests browse photos, tasting notes and recipes. The
 - Editor: https://daniellakatos.github.io/house-menu/admin/
 - Repository: https://github.com/DanielLakatos/house-menu
 
-The initial four cocktails and generated photos are examples. Replace them with what you serve, then turn off the example notice under Menu settings.
+The current menu contains 15 cocktails imported from the host's Cocktails by Steve screenshots. Recipe quantities follow those screenshots. Descriptions and tasting notes are written for the guest menu, with matching generated photographs. Negroni and Margarita remain hidden examples in the editor.
 
 ## Editing and publishing
 
@@ -57,6 +57,6 @@ An agent can edit this file through GitHub. See `AGENTS.md` for the update contr
 
 ## Images and third-party code
 
-`assets/cocktails.png` is an AI-generated four-panel example photograph, displayed with CSS cropping. The prompt describes a Negroni, Margarita, Espresso Martini, and Old Fashioned on a dark green bar. The built-in image-generation tool produced the asset. Uploaded images replace the example crop for that cocktail. Use images you own or are permitted to reuse.
+`assets/drinks/` contains the generated photographs for the current menu. Each uses the same dark green bar setting and one of the host's coupe, old-fashioned or highball glasses. `assets/drinks/prompts.json` records the prompts used by the built-in image-generation tool. `assets/cocktails.png` remains the four-panel example asset for the hidden example drinks. Use images you own or are permitted to reuse.
 
 `assets/vendor/qrcode.js` is qrcode-generator 2.0.4, copyright Kazuhiko Arase, MIT licensed. Its copyright and license notice are preserved in the file. `THIRD_PARTY_NOTICES.md` includes the license terms.

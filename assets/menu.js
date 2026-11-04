@@ -9,6 +9,7 @@ export function drinkCard(drink, index) {
   body.append(heading, el('p', 'tasting-notes', drink.tastingNotes), el('p', 'drink-description', drink.description));
   const details = el('details', 'recipe'); details.append(el('summary', '', 'Ingredients & recipe'));
   const list = el('ul'); drink.ingredients.forEach(item => list.append(el('li', '', item))); details.append(list, el('p', 'method', drink.recipe));
+  if (drink.source?.name) details.append(el('p', 'credit', `Recipe adapted from ${drink.source.name}.`));
   if (drink.imageCredit) details.append(el('p', 'credit', drink.imageCredit));
   body.append(details); card.append(picture, body); return card;
 }

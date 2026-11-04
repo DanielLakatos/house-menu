@@ -3,9 +3,347 @@
   "settings": {
     "title": "House menu",
     "intro": "Find something you fancy. I'll make it.",
-    "demo": true
+    "demo": false
   },
   "cocktails": [
+    {
+      "id": "midori-sour",
+      "name": "Midori Sour",
+      "description": "A bright melon sour with fresh lime and a soft egg-white foam.",
+      "tastingNotes": "Melon · tangy lime · silky",
+      "ingredients": [
+        "60 ml Midori melon liqueur",
+        "30 ml lime juice",
+        "1 egg white"
+      ],
+      "recipe": "Combine all ingredients in a shaker. Dry shake without ice, then add ice and shake again. Strain into a chilled coupe.",
+      "glass": "coupe",
+      "image": "assets/drinks/midori-sour.png",
+      "imageAlt": "Midori Sour served in a coupe glass",
+      "imageCredit": "AI-generated menu photograph",
+      "available": true,
+      "source": {
+        "name": "Cocktails by Steve",
+        "screenshot": "0ef29f4c-3a5d-4397-81f6-3bdc8250d354.jpg"
+      }
+    },
+    {
+      "id": "old-fashioned",
+      "name": "Old Fashioned",
+      "description": "Bourbon with a little sugar and aromatic bitters, served over fresh ice.",
+      "tastingNotes": "Bourbon · orange peel · warming",
+      "ingredients": [
+        "60 ml bourbon whiskey",
+        "1 barspoon simple syrup",
+        "3 dashes Angostura bitters",
+        "Orange or lemon twist, to garnish"
+      ],
+      "recipe": "Combine the bourbon, syrup and bitters in a mixing glass. Stir with ice for 20–30 seconds. Strain over fresh ice into an old-fashioned glass. Garnish with an orange or lemon twist.",
+      "glass": "old-fashioned",
+      "image": "assets/drinks/old-fashioned.png",
+      "imageAlt": "Old Fashioned served in an old-fashioned glass",
+      "imageCredit": "AI-generated menu photograph",
+      "available": true,
+      "source": {
+        "name": "Cocktails by Steve",
+        "screenshot": "142e7688-e009-4cac-9118-f8b8483e1a94.jpg"
+      }
+    },
+    {
+      "id": "mint-julep",
+      "name": "Mint Julep",
+      "description": "Bourbon, mint and a touch of sugar over a mound of crushed ice.",
+      "tastingNotes": "Fresh mint · bourbon · cooling",
+      "ingredients": [
+        "75 ml bourbon whiskey",
+        "15 ml simple syrup",
+        "8 mint leaves",
+        "Mint sprig, to garnish"
+      ],
+      "recipe": "Add the mint and simple syrup to an old-fashioned glass and muddle gently. Add the bourbon and half-fill with pebble or crushed ice. Stir until well chilled, then top with more ice. Garnish with a mint sprig.",
+      "glass": "old-fashioned",
+      "image": "assets/drinks/mint-julep.png",
+      "imageAlt": "Mint Julep served in an old-fashioned glass",
+      "imageCredit": "AI-generated menu photograph",
+      "available": true,
+      "source": {
+        "name": "Cocktails by Steve",
+        "screenshot": "183ba5a7-ef5a-4b89-b65c-69690655d060.jpg"
+      }
+    },
+    {
+      "id": "hugo-spritz",
+      "name": "Hugo Spritz",
+      "description": "A light, sparkling mix of elderflower, prosecco and soda with fresh mint.",
+      "tastingNotes": "Floral · sparkling · fresh mint",
+      "ingredients": [
+        "30 ml St-Germain elderflower liqueur",
+        "60 ml prosecco",
+        "60 ml soda water",
+        "1 mint sprig",
+        "Lemon wheel, to garnish"
+      ],
+      "recipe": "Gently muddle the mint in a highball glass. Add the elderflower liqueur, then fill with ice. Top with the prosecco and soda water. Garnish with a lemon wheel and the mint sprig.",
+      "glass": "highball",
+      "image": "assets/drinks/hugo-spritz.png",
+      "imageAlt": "Hugo Spritz served in a highball glass",
+      "imageCredit": "AI-generated menu photograph",
+      "available": true,
+      "source": {
+        "name": "Cocktails by Steve",
+        "screenshot": "1f2d026f-7a82-410d-9882-a1df9084d696.jpg"
+      }
+    },
+    {
+      "id": "whiskey-smash",
+      "name": "Whiskey Smash",
+      "description": "A bourbon sour brightened with lemon and gently muddled mint.",
+      "tastingNotes": "Lemon · fresh mint · bourbon",
+      "ingredients": [
+        "60 ml bourbon whiskey",
+        "4 mint leaves",
+        "22.5 ml lemon juice",
+        "22.5 ml simple syrup",
+        "Lemon wedge and mint sprig, to garnish"
+      ],
+      "recipe": "Gently muddle the mint with the measured lemon juice in a shaker. Add the bourbon and simple syrup. Shake with ice for 10–12 seconds. Double-strain over fresh ice into an old-fashioned glass. Garnish with a lemon wedge and mint sprig.",
+      "glass": "old-fashioned",
+      "image": "assets/drinks/whiskey-smash.png",
+      "imageAlt": "Whiskey Smash served in an old-fashioned glass",
+      "imageCredit": "AI-generated menu photograph",
+      "available": true,
+      "source": {
+        "name": "Cocktails by Steve",
+        "screenshot": "50e063dc-fd8e-4c11-a74e-7d110ffca12a.jpg",
+        "note": "The source lists 22.5 ml lemon juice but mentions lemon wedges in its method. This version uses the listed juice quantity."
+      }
+    },
+    {
+      "id": "godfather",
+      "name": "Godfather",
+      "description": "Scotch and amaretto stirred over ice. A short, almond-sweet drink.",
+      "tastingNotes": "Almond · malt · mellow",
+      "ingredients": [
+        "45 ml blended Scotch whisky",
+        "15 ml amaretto",
+        "Orange twist, to garnish"
+      ],
+      "recipe": "Pour the Scotch and amaretto into an old-fashioned glass. Add ice, preferably one large cube, and stir briefly to chill. Garnish with an orange twist.",
+      "glass": "old-fashioned",
+      "image": "assets/drinks/godfather.png",
+      "imageAlt": "Godfather served in an old-fashioned glass",
+      "imageCredit": "AI-generated menu photograph",
+      "available": true,
+      "source": {
+        "name": "Cocktails by Steve",
+        "screenshot": "56808765-f563-4aae-965e-11aea1dcee7b.jpg"
+      }
+    },
+    {
+      "id": "pantheon",
+      "name": "Pantheon",
+      "description": "Scotch meets herbal Bénédictine and fresh lemon in a short, shaken cocktail.",
+      "tastingNotes": "Herbal honey · lemon · malt",
+      "ingredients": [
+        "30 ml blended Scotch whisky",
+        "15 ml Bénédictine",
+        "15 ml lemon juice"
+      ],
+      "recipe": "Combine all ingredients in a shaker. Shake with ice for 10–12 seconds. Double-strain into a chilled coupe.",
+      "glass": "coupe",
+      "image": "assets/drinks/pantheon.png",
+      "imageAlt": "Pantheon served in a coupe glass",
+      "imageCredit": "AI-generated menu photograph",
+      "available": true,
+      "source": {
+        "name": "Cocktails by Steve",
+        "screenshot": "846f51a2-8bfc-4b1b-b51f-27d15dfc5f8d.jpg"
+      }
+    },
+    {
+      "id": "espresso-martini",
+      "name": "Espresso Martini",
+      "description": "Vodka, coffee liqueur and espresso shaken into a rich drink with a crema top.",
+      "tastingNotes": "Roasted coffee · rich · smooth",
+      "ingredients": [
+        "60 ml vodka",
+        "15 ml coffee liqueur",
+        "30 ml espresso",
+        "7.5 ml simple syrup",
+        "3 coffee beans, to garnish"
+      ],
+      "recipe": "Combine the vodka, coffee liqueur, espresso and syrup in a shaker. Shake with ice. Strain into a chilled coupe and garnish with three coffee beans.",
+      "glass": "coupe",
+      "image": "assets/drinks/espresso-martini.png",
+      "imageAlt": "Espresso Martini served in a coupe glass",
+      "imageCredit": "AI-generated menu photograph",
+      "available": true,
+      "source": {
+        "name": "Cocktails by Steve",
+        "screenshot": "90d73acc-69a0-4579-876b-b95bbbe896ba.jpg"
+      }
+    },
+    {
+      "id": "kentucky-maid",
+      "name": "Kentucky Maid",
+      "description": "Bourbon with lime, cucumber and mint. Fresh and citrusy over ice.",
+      "tastingNotes": "Cucumber · mint · bright lime",
+      "ingredients": [
+        "60 ml bourbon whiskey",
+        "8 mint leaves",
+        "2 cucumber wedges",
+        "30 ml lime juice",
+        "22.5 ml simple syrup",
+        "Cucumber wheel and mint sprig, to garnish"
+      ],
+      "recipe": "Add the mint and cucumber to a shaker and muddle gently. Add the bourbon, lime juice and syrup. Shake with ice for 10–12 seconds. Double-strain over fresh ice into an old-fashioned glass. Garnish with a cucumber wheel and mint sprig.",
+      "glass": "old-fashioned",
+      "image": "assets/drinks/kentucky-maid.png",
+      "imageAlt": "Kentucky Maid served in an old-fashioned glass",
+      "imageCredit": "AI-generated menu photograph",
+      "available": true,
+      "source": {
+        "name": "Cocktails by Steve",
+        "screenshot": "93161728-64a5-4807-ac26-ae39191c623b.jpg"
+      }
+    },
+    {
+      "id": "southside",
+      "name": "Southside",
+      "description": "A crisp gin sour with lemon and fresh mint, served straight up.",
+      "tastingNotes": "Botanical gin · lemon · mint",
+      "ingredients": [
+        "60 ml dry gin",
+        "22.5 ml lemon juice",
+        "22.5 ml simple syrup",
+        "4 mint leaves"
+      ],
+      "recipe": "Add all ingredients to a shaker. Shake with ice for 10–12 seconds. Double-strain into a chilled coupe.",
+      "glass": "coupe",
+      "image": "assets/drinks/southside.png",
+      "imageAlt": "Southside served in a coupe glass",
+      "imageCredit": "AI-generated menu photograph",
+      "available": true,
+      "source": {
+        "name": "Cocktails by Steve",
+        "screenshot": "93b0905b-e352-49c7-8969-a2d347e391bf.jpg"
+      }
+    },
+    {
+      "id": "whiskey-sour",
+      "name": "Whiskey Sour",
+      "description": "Bourbon and lemon softened with sugar and egg-white foam, finished with bitters.",
+      "tastingNotes": "Bright lemon · bourbon · silky",
+      "ingredients": [
+        "60 ml bourbon whiskey",
+        "22.5 ml lemon juice",
+        "22.5 ml simple syrup",
+        "1 egg white",
+        "1 dash Angostura bitters"
+      ],
+      "recipe": "Add the bourbon, lemon juice, syrup and egg white to a shaker. Dry shake without ice. Add ice and shake again. Double-strain into a chilled coupe and finish with the aromatic bitters on the foam.",
+      "glass": "coupe",
+      "image": "assets/drinks/whiskey-sour.png",
+      "imageAlt": "Whiskey Sour served in a coupe glass",
+      "imageCredit": "AI-generated menu photograph",
+      "available": true,
+      "source": {
+        "name": "Cocktails by Steve",
+        "screenshot": "c37fae0e-eefe-4f7f-9c25-466289b0359b.jpg"
+      }
+    },
+    {
+      "id": "elder-fashioned",
+      "name": "Elder Fashioned",
+      "description": "An Old Fashioned variation with elderflower liqueur and orange bitters.",
+      "tastingNotes": "Elderflower · bourbon · orange",
+      "ingredients": [
+        "60 ml bourbon whiskey",
+        "15 ml St-Germain elderflower liqueur",
+        "0.5 barspoon simple syrup",
+        "1 dash orange bitters",
+        "Orange twist, to garnish"
+      ],
+      "recipe": "Combine the bourbon, elderflower liqueur, syrup and bitters in a mixing glass. Stir with ice for about 30 seconds. Strain over a large ice cube into an old-fashioned glass. Garnish with an orange twist.",
+      "glass": "old-fashioned",
+      "image": "assets/drinks/elder-fashioned.png",
+      "imageAlt": "Elder Fashioned served in an old-fashioned glass",
+      "imageCredit": "AI-generated menu photograph",
+      "available": true,
+      "source": {
+        "name": "Cocktails by Steve",
+        "screenshot": "c62a2b70-c31f-4f04-a2f0-6a34c7193fcb.jpg"
+      }
+    },
+    {
+      "id": "death-and-taxes",
+      "name": "Death & Taxes",
+      "description": "A stirred mix of Scotch, gin, sweet vermouth and Bénédictine with two kinds of bitters.",
+      "tastingNotes": "Herbal · aromatic · spirit-forward",
+      "ingredients": [
+        "30 ml blended Scotch whisky",
+        "30 ml gin",
+        "22.5 ml sweet vermouth",
+        "7.5 ml Bénédictine",
+        "2 dashes Angostura bitters",
+        "2 dashes orange bitters",
+        "Lemon twist, to garnish"
+      ],
+      "recipe": "Add all liquid ingredients to a mixing glass. Stir with ice until chilled. Strain into a chilled coupe and garnish with a lemon twist.",
+      "glass": "coupe",
+      "image": "assets/drinks/death-and-taxes.png",
+      "imageAlt": "Death & Taxes served in a coupe glass",
+      "imageCredit": "AI-generated menu photograph",
+      "available": true,
+      "source": {
+        "name": "Cocktails by Steve",
+        "screenshot": "cb03b728-7c43-4397-bc10-c812daf5baca.jpg"
+      }
+    },
+    {
+      "id": "don-lockwood",
+      "name": "Don Lockwood",
+      "description": "Bourbon and Islay whisky with maple syrup, chocolate bitters and aromatic bitters.",
+      "tastingNotes": "Smoky · chocolate · maple",
+      "ingredients": [
+        "30 ml bourbon whiskey",
+        "30 ml Islay whisky",
+        "7.5 ml maple syrup",
+        "2 dashes Steve the Bartender chocolate bitters",
+        "1 dash Angostura bitters"
+      ],
+      "recipe": "Combine all ingredients in a mixing glass. Stir with ice until chilled. Strain over ice into an old-fashioned glass.",
+      "glass": "old-fashioned",
+      "image": "assets/drinks/don-lockwood.png",
+      "imageAlt": "Don Lockwood served in an old-fashioned glass",
+      "imageCredit": "AI-generated menu photograph",
+      "available": true,
+      "source": {
+        "name": "Cocktails by Steve",
+        "screenshot": "cfcaf7af-0978-4696-ac84-283b29336bea.jpg"
+      }
+    },
+    {
+      "id": "bees-knees",
+      "name": "Bee's Knees",
+      "description": "Gin, lemon and honey syrup in a bright, softly sweet sour.",
+      "tastingNotes": "Honey · lemon · botanical",
+      "ingredients": [
+        "60 ml Threefold Dry gin",
+        "22.5 ml lemon juice",
+        "22.5 ml honey syrup"
+      ],
+      "recipe": "Add all ingredients to a shaker. Shake with ice for 10–12 seconds. Double-strain into a chilled coupe.",
+      "glass": "coupe",
+      "image": "assets/drinks/bees-knees.png",
+      "imageAlt": "Bee's Knees served in a coupe glass",
+      "imageCredit": "AI-generated menu photograph",
+      "available": true,
+      "source": {
+        "name": "Cocktails by Steve",
+        "screenshot": "f20695d4-aec9-4fff-84f5-d6139f1df945.jpg"
+      }
+    },
     {
       "id": "negroni",
       "name": "Negroni",
@@ -21,7 +359,7 @@
       "image": "assets/cocktails.png",
       "imageAlt": "A ruby-red Negroni over ice with orange peel",
       "imageCredit": "AI-generated example photograph",
-      "available": true,
+      "available": false,
       "imageCrop": "top-left"
     },
     {
@@ -39,45 +377,8 @@
       "image": "assets/cocktails.png",
       "imageAlt": "A pale lime Margarita in a salt-rimmed coupe",
       "imageCredit": "AI-generated example photograph",
-      "available": true,
+      "available": false,
       "imageCrop": "top-right"
-    },
-    {
-      "id": "espresso-martini",
-      "name": "Espresso Martini",
-      "description": "Vodka and coffee liqueur shaken with espresso. A silky coffee drink with a proper foam top.",
-      "tastingNotes": "Roasted coffee · smooth · bittersweet",
-      "ingredients": [
-        "50 ml vodka",
-        "25 ml coffee liqueur",
-        "25 ml freshly brewed espresso, cooled",
-        "5–10 ml sugar syrup, to taste",
-        "3 coffee beans, to garnish"
-      ],
-      "recipe": "Shake all the liquid ingredients hard with plenty of ice. Fine-strain into a chilled coupe. Garnish the foam with three coffee beans.",
-      "image": "assets/cocktails.png",
-      "imageAlt": "An Espresso Martini with crema and three coffee beans",
-      "imageCredit": "AI-generated example photograph",
-      "available": true,
-      "imageCrop": "bottom-left"
-    },
-    {
-      "id": "old-fashioned",
-      "name": "Old Fashioned",
-      "description": "Whiskey, a little sugar, and bitters. A spirit-forward classic that lets the whiskey do the talking.",
-      "tastingNotes": "Oak · orange peel · warming",
-      "ingredients": [
-        "60 ml bourbon or rye whiskey",
-        "5 ml sugar syrup",
-        "2 dashes Angostura bitters",
-        "Orange peel, to garnish"
-      ],
-      "recipe": "Stir the whiskey, syrup and bitters with ice until chilled and lightly diluted. Strain into a rocks glass over a large ice cube. Express orange peel over the drink and add it to the glass.",
-      "image": "assets/cocktails.png",
-      "imageAlt": "An amber Old Fashioned with a large ice cube and orange peel",
-      "imageCredit": "AI-generated example photograph",
-      "available": true,
-      "imageCrop": "bottom-right"
     }
   ]
 }

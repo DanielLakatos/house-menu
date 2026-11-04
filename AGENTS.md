@@ -8,6 +8,7 @@ The user may supply cocktails in natural language. Convert their instructions in
 - Do not infer that the host can serve a cocktail just because a recipe exists. Follow their availability instruction. New unconfirmed drinks default to `available: false`.
 - Preserve quantities and units. Ask about missing recipe details rather than inventing the user's recipe.
 - Use photo credits when known. Never add credentials or tokens to source files or menu data.
+- The host owns coupe, old-fashioned and highball glasses. Use only these in generated images and serving instructions. Preserve the optional `glass` field and recipe `source` metadata when editing a drink.
 - The settings object has title, intro, and demo boolean. Turn demo off when the user is ready to serve the real menu.
 - Array order is display order. Do not add search, navigation or ordering features unless asked.
 - Run `npm test` after data changes. Inspect the guest view if layout or images change.
